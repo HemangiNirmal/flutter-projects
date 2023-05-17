@@ -1,0 +1,6 @@
+Text('Hello World',
+          style: TextStyle(
+              fontSize: 20.0,
+              fontFamily: 'ArchitectsDaughter',
+              fontWeight: FontWeight.bold,
+          ),),

@@ -1,0 +1,27 @@
+Column(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: <Widget>[
+          Text('Hello World'),
+          RaisedButton(
+            onPressed: (){},
+            child: Text('Button'),
+            color: Colors.blue[900],
+          ),
+          Container(
+            color: Colors.red[500],
+            padding: EdgeInsets.all(20),
+            child: Text('It is container'),
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: <Widget>[
+              Text('Hello World 1'),
+              Text('Hello World 2'),
+              Text('Hello World 3'),
+            ],
+          ),
+
+
+mainAxis =  x-axis
+cross axis = y axis

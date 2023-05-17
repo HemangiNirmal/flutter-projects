@@ -1,0 +1,32 @@
+RaisedButton(
+          onPressed: (){
+            print("added");
+          },
+            child: Text('Add'),
+          color: Colors.teal[900],)
+
+
+FlatButton(
+          onPressed: (){
+            print("added");
+          },
+            child: Text('Add'),
+          color: Colors.teal[900],)
+
+___________________________________________________________________________________________
+
+Button with icon and text
+
+RaisedButton.icon(
+          onPressed: (){ },
+          icon: Icon(Icons.shopping_cart,),
+          label: Text('Add to cart'),
+        )
+
+
+IconButton(
+          onPressed: (){print("added");},
+          icon: Icon(Icons.shopping_cart,),
+          color: Colors.teal[900],
+        )
+

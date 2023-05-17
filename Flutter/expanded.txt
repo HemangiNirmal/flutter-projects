@@ -1,0 +1,21 @@
+ Expanded(
+          child: Container(
+          padding: EdgeInsets.all(50),
+          color: Colors.red[100],
+          child: Text('1'),
+        ),),
+
+
+
+
+Expanded(child: Image.asset('assets/img/img1.jpg'),flex: 1,),
+
+
+
+______________________________________________________________________________________
+
+expand current child and occupy all free space
+
+
+Expanded is similar to flex based on flex value it occupy the space
+

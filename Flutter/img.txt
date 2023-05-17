@@ -1,0 +1,12 @@
+Image.network('https://images.unsplash.com/photo-1624193517261-c36d3da281ed?ixlib=rb-.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80'),
+
+
+Image.asset("assets/img/img2.jpg"),
+
+Image(
+          //way-1
+          image: NetworkImage('https://images.unsplash.com/photo-1624193517261-c36d3da281ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80'),
+
+          //way-2
+          image: AssetImage('assets/img/img1.jpg'),
+),

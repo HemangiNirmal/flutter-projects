@@ -1,0 +1,5 @@
+Icon(
+          Icons.shopping_cart,
+          size: 50.0,
+          color: Colors.teal[900],
+        )

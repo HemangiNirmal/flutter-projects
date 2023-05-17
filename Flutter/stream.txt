@@ -1,0 +1,25 @@
+Stream studentStream;
+
+StreamBuilder :  monitor instant change and display
+
+return StreamBuilder<QuerySnapshot>(
+stream: studentStream
+builder: (BuildContext context, 
+	AsyncSnapshot<QuerySnapshot> snapshot){
+	
+
+	//check error
+	if(snapshot.hasError) { return error;}
+	
+	//waiting
+	if(snapshot.connectionState == ConnectionState.waiting) {
+		return CircularProgressIndicator();
+	}
+
+	return Container(
+		
+	)
+	
+} 
+
+)
